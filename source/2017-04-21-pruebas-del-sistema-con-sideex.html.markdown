@@ -77,7 +77,7 @@ a. Clonar o actualizar el repositorio que se va a probar.
    Esto en particular actualizará el directorio `test/sideex` donde deben 
    estar casos de pruebas para las diversas funcionalidades del sistema
    con títulos que sugieran lo que se prueba en una suit de pruebas 
-   (`pruebas-suit.selenium`) que agrupa todos los  casos de prueba.
+   (`pruebas-suit.html`) que agrupa todos los  casos de prueba.
 
 b.  Empleando Chrome con sideex instalado, ingresar a la aplicación en
     el sitio de desarrollo (o de ensayo) con un usuario y contraseña de administrador 
@@ -94,7 +94,7 @@ c.2 Si era una falla ya resuleta buscar la tarjeta donde se había reportado
 c.3 Si es una falla nueva, crear una nueva tarjeta Trello en la columna
     "Haciendo".  Iniciar el título con un código ```F-n``` donde n es un número
     consecutivo respecto a las demás tarjetas.  Adjuntar a esta tarjeta
-    la prueba de Selenium-IDE que falló, un pantallazo y si es el caso
+    la prueba de Sideex que falló, un pantallazo y si es el caso
     detalles adicionales de como reproducir en comentarios.
 
 c.4. Si se detienen las pruebas pero no por fallas en la aplicación sino en la 
@@ -155,7 +155,7 @@ Selenium-IDE cuando se enfoca la orden en un caso de prueba.
 
 * En general suponer que ya se ha iniciado sesión en la aplicacioń con la cuenta
   administrativa de prueba y que está en la pantalla incial de la aplicación. 
-* De requerirse crear nuevos elementos pero con nombres que no no puedan interferir
+* De requerirse crear nuevos elementos pero con nombres que no puedan interferir
   con una aplicación de producción (en caso de ejecutarse sobre una).   Por 
   ejemplo nombres AAAA.
 * En general cada caso de prueba debe eliminar los elementos que cree (excepión 
@@ -166,3 +166,4 @@ Selenium-IDE cuando se enfoca la orden en un caso de prueba.
   el estado de la aplicación sea el esperado sin lugar a dudas.
 * Aunque sideex se inspiró en Selenium-IDE, en general no requiere ordenes que 
   esperen la presencia de un element como ```waitForElementPresent```
+* 
